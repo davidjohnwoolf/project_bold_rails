@@ -14,9 +14,9 @@
 ActiveRecord::Schema.define(version: 20140811043328) do
 
   create_table "posts", force: true do |t|
-    t.string   "title"
-    t.string   "author"
-    t.text     "text"
+    t.string   "title",      null: false
+    t.string   "author",     null: false
+    t.text     "text",       null: false
     t.string   "image"
     t.datetime "created_at"
     t.datetime "updated_at"
