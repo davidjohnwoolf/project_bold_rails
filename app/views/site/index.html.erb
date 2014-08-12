@@ -1,1 +1,81 @@
-<h1>Project Bold - site#index</h1>
+<div class="row">
+  <div class="large-4 columns">
+    <h2>Welcome Visitor</h2>
+    <p>
+      We provide web design and development for small businesses and individuals in and around Salt Lake City, UT. Feel free to explore our site or get a quick quote below.
+    </p>
+    <a href="#" class="button">View Portfolio</a>
+  </div>
+  <div class="large-8 columns">
+    <%= image_tag('responsive-web-design.jpg', alt: 'Responsive Web Design') %>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-6 columns">
+    <h2>Quick Quote</h2>
+    <p>
+      Send us a message or give us a call anytime, we would love to discuss your project with you!
+    </p>
+    <p>
+      (801) 633-9105
+    </p>
+  </div>
+  <%= form_tag('/contact') do %>
+    <div class="large-3 columns">
+      <h2> . </h2>
+      <%= text_field_tag :name %>
+      <%= text_field_tag :email %>
+    </div>
+    <div class="large-3 columns">
+      <h2> . </h2>
+      <%= text_area_tag :comments %>
+      <%= submit_tag 'Send'%>
+    </div>
+  <% end %>
+</div>
+
+<div class="row">
+  <div class="large-4 columns">
+    <h2>What We Do</h2>
+    <p>
+      We provide web design and development services for small businesses in Salt Lake City. We focus on responsive designs to make sure that your website works great on any device. This is important, seeing as over half of the web surfers are using mobile devices.
+    </p>
+    <a href="#" class="button">Services</a>
+  </div>
+  <div class="large-4 columns">
+    <h2>How We Work</h2>
+    <p>
+      Working with us is different from other Salt Lake City web design companies. We work with you, not for you. This means that we keep you involved throughout the process, and being based in Salt Lake, we are always available to meet up and discuss an idea.
+    </p>
+    <a href="#" class="button">Services</a>
+  </div>
+  <div class="large-4 columns">
+    <h2>The Benefits</h2>
+    <p>
+      Being a leading Salt Lake City web design company, we guarantee satisfaction. We make sure the project is up to your standards every step of the way. Furthermore, you get as many revisions as you like, no additional fees. We exceed expectations.
+    </p>
+    <a href="#" class="button">Services</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-2 columns">
+    <%= image_tag('portrait.png', alt: 'David Woolf') %>
+  </div>
+  <div class="large-10 columns">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p>
+      David Woolf, Owner and Developer
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
+    <h2><a href="#">Contact us</a> now to get started</h2>
+  </div>
+
+</div>
