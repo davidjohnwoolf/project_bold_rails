@@ -15,3 +15,69 @@
  *= require foundation_and_overrides
 
  */
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: Oswald, Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Navigation Styles */
+
+.top-bar {
+  height: 62px;
+}
+
+.top-bar li a {
+  margin-top: 8px;
+  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 1.1em !important;
+}
+
+.top-bar .title-area .name img {
+  width: 150px;
+  margin-top: -5px;
+}
+
+/* Footer Styles */
+
+.main-footer {
+  background-color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+  .main-footer div {
+    margin-bottom: 20px;
+  }
+
+  .main-footer p {
+    color: #555;
+  }
+
+  .main-footer ul {
+    list-style-type: none;
+    padding: none;
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+
+    .main-footer ul li {
+      display: inline;
+      padding: 10px 0;
+    }
+
+      .main-footer ul li a {
+        padding: 10px;
+        color: #fff
+      }
