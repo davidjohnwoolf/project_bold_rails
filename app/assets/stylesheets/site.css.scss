@@ -20,7 +20,6 @@ section[class$="banner"] {
   .welcome-banner a[class="button"] {
     background-color: #00aad4;
     font-size: 1.2em;
-    width: 80%;
   }
 
   .welcome-banner a[class="button"]:hover {
@@ -38,6 +37,7 @@ section[class$="banner"] {
 
   .quote-banner span {
     color: tomato;
+    font-family: Oswald;
     font-size: 1.5em;
   }
 
@@ -66,6 +66,7 @@ section[class$="banner"] {
   .info-banner a[class="button"] {
     background-color: #999;
     width: 150px;
+    margin-bottom: 30px;
   }
 
   .info-banner a[class="button"]:hover {
@@ -80,11 +81,21 @@ section[class$="banner"] {
     color: #00aad4;
   }
 
+  .owner-banner img {
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+  }
+
 .contact-banner {
   background-color: #ccc;
   text-align: center;
   border-top: 3px #aaa solid;
 }
+
+  .contact-banner h2 {
+    margin-bottom: 10px;
+  }
 
   section.contact-banner a {
     font-family: Oswald;
