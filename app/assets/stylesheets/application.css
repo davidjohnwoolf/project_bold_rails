@@ -35,17 +35,22 @@ h2 {
   height: 62px;
 }
 
-.top-bar li a {
-  margin-top: 8px;
-  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif !important;
-  text-transform: uppercase !important;
-  font-size: 1.1em !important;
-}
+  .top-bar .right li a {
+    margin-top: 8px;
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif !important;
+    text-transform: uppercase !important;
+    font-size: 1.1em !important;
+  }
 
-.top-bar .title-area .name img {
-  width: 150px;
-  margin-top: -5px;
-}
+  .top-bar .right li a:hover {
+    background-color: transparent !important;
+    border-bottom: 3px tomato solid;
+  }
+
+  .top-bar .title-area .name img {
+    width: 150px;
+    margin-top: 10px;
+  }
 
 /* Footer Styles */
 
@@ -80,4 +85,8 @@ h2 {
       .main-footer ul li a {
         padding: 10px;
         color: #fff
+      }
+
+      .main-footer ul li a:hover {
+        border-bottom: 3px tomato solid;
       }
