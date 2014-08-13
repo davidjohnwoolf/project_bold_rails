@@ -1,13 +1,15 @@
-// index styles
+// General Site Styles
 
 section[class$="banner"] {
   padding: 20px 0;
 }
 
-  section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
-    font-family: 'Open Sans Condensed';
-    text-transform: uppercase;
-  }
+section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
+  font-family: 'Open Sans Condensed';
+  text-transform: uppercase;
+}
+
+// Index Styles
 
 .welcome-banner {
 
@@ -100,4 +102,28 @@ section[class$="banner"] {
   section.contact-banner a {
     font-family: Oswald;
     text-transform: none;
+  }
+
+// Services Styles
+
+.technologies-banner {
+  background: #222;
+  color: #fff;
+}
+
+  .technologies-banner h2  {
+    color: tomato;
+  }
+
+.employers-banner {
+  background-color: #ccc
+}
+
+  .employers-banner a[class="button"] {
+    background-color: #00aad4;
+    font-size: 1.2em;
+  }
+
+  .employers-banner a[class="button"]:hover {
+    background-color: tomato;
   }
