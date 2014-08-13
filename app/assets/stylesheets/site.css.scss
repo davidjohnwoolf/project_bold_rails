@@ -1,3 +1,92 @@
-// Place all the styles related to the site controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// index styles
+
+section[class$="banner"] {
+  padding: 20px 0;
+}
+
+  section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
+    font-family: 'Open Sans Condensed';
+    text-transform: uppercase;
+  }
+
+.welcome-banner {
+
+}
+
+  .welcome-banner p {
+    font-size: 1.2em;
+  }
+
+  .welcome-banner a[class="button"] {
+    background-color: #00aad4;
+    font-size: 1.2em;
+    width: 80%;
+  }
+
+  .welcome-banner a[class="button"]:hover {
+    background-color: tomato;
+  }
+
+.quote-banner {
+  background-color: #222;
+  color: #fff;
+}
+
+  .quote-banner h2 {
+    color: #999;
+  }
+
+  .quote-banner span {
+    color: tomato;
+    font-size: 1.5em;
+  }
+
+  .quote-banner form {
+    margin-top: 50px;
+  }
+
+    .quote-banner form input[type="submit"] {
+      background-color: tomato;
+    }
+
+    .quote-banner form input[type="submit"]:hover {
+      background-color: #00aad4;
+    }
+
+.info-banner {
+  background-color: #ccc;
+  border-bottom: 3px #aaa solid;
+}
+
+  .info-banner img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .info-banner a[class="button"] {
+    background-color: #999;
+    width: 150px;
+  }
+
+  .info-banner a[class="button"]:hover {
+    background-color: #00aad4;
+  }
+
+.owner-banner {
+
+}
+
+  .owner-banner span {
+    color: #00aad4;
+  }
+
+.contact-banner {
+  background-color: #ccc;
+  text-align: center;
+  border-top: 3px #aaa solid;
+}
+
+  section.contact-banner a {
+    font-family: Oswald;
+    text-transform: none;
+  }
