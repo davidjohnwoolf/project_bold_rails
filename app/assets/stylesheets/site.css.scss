@@ -115,8 +115,28 @@ section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
     color: tomato;
   }
 
+body .portfolio-banner {
+  background-color: #ccc;
+  border-bottom: 3px #aaa solid;
+  padding-bottom: 0;
+}
+
+  .portfolio-banner span {
+    font-family: Oswald;
+    font-size: 1.5em;
+  }
+
+  .portfolio-banner a[class="button"] {
+    margin-left: 15px;
+    background-color: #00aad4;
+    font-size: 1.2em;
+  }
+
+  .portfolio-banner a[class="button"]:hover {
+    background-color: tomato;
+  }
+
 .employers-banner {
-  background-color: #ccc
 }
 
   .employers-banner a[class="button"] {
