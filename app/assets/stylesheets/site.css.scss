@@ -106,6 +106,19 @@ section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
 
 // Services Styles
 
+.services-header-banner p {
+  font-size: 1.2em;
+}
+
+.services-header-banner img {
+  margin-top: 25px;
+}
+
+.services-banner {
+  background-color: #ccc;
+  border-top: 3px #aaa solid;
+}
+
 .technologies-banner {
   background: #222;
   color: #fff;
@@ -115,9 +128,21 @@ section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
     color: tomato;
   }
 
+.employers-banner {
+  border-bottom: 3px #aaa solid;
+}
+
+  .employers-banner a[class="button"] {
+    background-color: #00aad4;
+    font-size: 1.2em;
+  }
+
+  .employers-banner a[class="button"]:hover {
+    background-color: tomato;
+  }
+
 body .portfolio-banner {
   background-color: #ccc;
-  border-bottom: 3px #aaa solid;
   padding-bottom: 0;
 }
 
@@ -136,14 +161,59 @@ body .portfolio-banner {
     background-color: tomato;
   }
 
-.employers-banner {
+// Portfolio Styles
+
+.project-1-banner {
+  background-color: #ccc;
+  border-top: 3px #aaa solid;
 }
 
-  .employers-banner a[class="button"] {
-    background-color: #00aad4;
-    font-size: 1.2em;
+  .project-1-banner a {
+    background-color: tomato;
+    margin-top: 20px;
   }
 
-  .employers-banner a[class="button"]:hover {
+.project-2-banner {
+  background-color: #222;
+  color: #fff;
+}
+
+  .project-2-banner h2 {
+    color: #999;
+  }
+
+  .project-2-banner img {
+    float: right;
+  }
+
+  .project-2-banner a {
+    background-color: #00aad4;
+    margin-top: 20px;
+  }
+
+  .project-2-banner a:hover {
     background-color: tomato;
   }
+
+.project-3-banner {
+  background-color: #ccc;
+  border-bottom: 3px #aaa solid;
+}
+
+  .project-3-banner a {
+    background-color: #00aad4;
+    margin-top: 20px;
+  }
+
+  .project-3-banner a:hover {
+    background-color: tomato;
+  }
+
+.hire-banner a {
+  background-color: tomato;
+  margin-top: 20px;
+}
+
+.hire-banner a:hover {
+  background-color: #00aad4;
+}
