@@ -39,6 +39,10 @@ h2 {
   height: 62px;
 }
 
+  .top-bar .title-area li.menu-icon {
+    margin-top: -10px;
+  }
+
   .top-bar .right li a {
     margin-top: 8px;
     font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif !important;
