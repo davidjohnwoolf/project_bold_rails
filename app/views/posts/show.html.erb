@@ -1,8 +1,17 @@
-<h1><%= @post.title %></h1>
-
-<h4>
-  Written by <%= @post.author %>
-</h4>
-<div>
-  <%= @post.text %>
-</div>
+<section class="post-banner">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2><%= @post.title %></h2>
+      <div class="created-at"><%= @post.created_at.strftime("%m/%d/%Y") %></div>
+      <h5>
+        <em><%= @post.author %></em>
+      </h5>
+      <div class="content">
+        <%= @post.text %>
+      </div>
+      <div>
+        <%= link_to('<< Back to Posts', posts_path) %>
+      </div>
+    </div>
+  </div>
+</section>
