@@ -217,3 +217,14 @@ body .portfolio-banner {
 .hire-banner a:hover {
   background-color: #00aad4;
 }
+
+// Contact Styles
+
+.contact-page-banner input[type="submit"] {
+  background-color: tomato;
+  margin-top: 20px;
+}
+
+.contact-page-banner input[type="submit"]:hover {
+  background-color: #00aad4;
+}
