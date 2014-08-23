@@ -172,9 +172,23 @@ body .portfolio-banner {
   border-top: 3px #aaa solid;
 }
 
+  .project-1-banner .port-image {
+    float: left;
+  }
+
+  .project-1-banner .port-content {
+    float: right;
+  }
+
   .project-1-banner a {
-    background-color: tomato;
+    background-color: #00aad4;
     margin-top: 20px;
+    display: block;
+    width: 150px;
+  }
+
+  .project-1-banner a:hover {
+    background-color: tomato;
   }
 
 .project-2-banner {
@@ -193,6 +207,8 @@ body .portfolio-banner {
   .project-2-banner a {
     background-color: #00aad4;
     margin-top: 20px;
+    display: block;
+    width: 150px;
   }
 
   .project-2-banner a:hover {
@@ -204,9 +220,19 @@ body .portfolio-banner {
   border-bottom: 3px #aaa solid;
 }
 
+  .project-3-banner .port-image {
+    float: left;
+  }
+
+  .project-3-banner .port-content {
+    float: right;
+  }
+
   .project-3-banner a {
     background-color: #00aad4;
     margin-top: 20px;
+    display: block;
+    width: 150px;
   }
 
   .project-3-banner a:hover {
