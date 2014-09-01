@@ -2,6 +2,8 @@ class PostsController < ApplicationController
 
   before_action :find_post, only: [:show, :edit, :update, :destroy]
 
+  http_basic_authenticate_with name: "david", password: "secret", except: [:index, :show]
+
   def index
     @posts = Post.all
   end
