@@ -66,6 +66,19 @@ h2 {
     margin-top: 10px;
   }
 
+/* Small Screen Navigation Styles */
+
+@media only screen and (max-width: 40em) {
+  .top-bar .right li a {
+    margin-top: 0;
+  }
+
+  .top-bar .right li a:hover {
+    background-color: #111 !important;
+    border-bottom: none;
+  }
+}
+
 /* Footer Styles */
 
 .main-footer {
