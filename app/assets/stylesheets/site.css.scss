@@ -4,11 +4,6 @@ section[class$="banner"] {
   padding: 20px 0;
 }
 
-section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
-  font-family: 'Open Sans Condensed';
-  text-transform: uppercase;
-}
-
 // Index Styles
 
 .welcome-banner {
@@ -17,15 +12,6 @@ section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
 
   .welcome-banner p {
     font-size: 1.2em;
-  }
-
-  .welcome-banner a[class="button"] {
-    background-color: #00aad4;
-    font-size: 1.2em;
-  }
-
-  .welcome-banner a[class="button"]:hover {
-    background-color: tomato;
   }
 
 .quote-banner {
@@ -47,14 +33,6 @@ section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
     margin-top: 50px;
   }
 
-    .quote-banner form input[type="submit"] {
-      background-color: tomato;
-    }
-
-    .quote-banner form input[type="submit"]:hover {
-      background-color: #00aad4;
-    }
-
 .info-banner {
   background-color: #ccc;
   border-bottom: 3px #aaa solid;
@@ -66,28 +44,19 @@ section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
   }
 
   .info-banner a[class="button"] {
-    background-color: #999;
     width: 150px;
     margin-bottom: 30px;
   }
 
-  .info-banner a[class="button"]:hover {
-    background-color: #00aad4;
-  }
-
-.owner-banner {
-
+.owner-banner span {
+  color: #00aad4;
 }
 
-  .owner-banner span {
-    color: #00aad4;
-  }
-
-  .owner-banner img {
-    width: 15%;
-    float: left;
-    margin-right: 20px;
-  }
+.owner-banner img {
+  width: 15%;
+  float: left;
+  margin-right: 20px;
+}
 
 .contact-banner {
   background-color: #ccc;
@@ -133,33 +102,20 @@ section[class$="banner"] a, section[class$="banner"] input[type="submit"] {
   border-bottom: 3px #aaa solid;
 }
 
-  .employers-banner a[class="button"] {
-    background-color: #00aad4;
-    font-size: 1.2em;
-  }
-
-  .employers-banner a[class="button"]:hover {
-    background-color: tomato;
-  }
-
 body .portfolio-banner {
   background-color: #ccc;
   padding-bottom: 0;
 }
 
-  .portfolio-banner span {
+  .portfolio-banner .offer-text {
     font-family: Oswald;
     font-size: 1.5em;
+    margin-bottom: 20px;
   }
 
   .portfolio-banner a[class="button"] {
     margin-left: 15px;
-    background-color: #00aad4;
     font-size: 1.2em;
-  }
-
-  .portfolio-banner a[class="button"]:hover {
-    background-color: tomato;
   }
 
 // Portfolio Styles
@@ -182,14 +138,9 @@ body .portfolio-banner {
   }
 
   .project-1-banner a {
-    background-color: #00aad4;
     margin-top: 20px;
     display: block;
     width: 150px;
-  }
-
-  .project-1-banner a:hover {
-    background-color: tomato;
   }
 
 .project-2-banner {
@@ -206,14 +157,9 @@ body .portfolio-banner {
   }
 
   .project-2-banner a {
-    background-color: #00aad4;
     margin-top: 20px;
     display: block;
     width: 150px;
-  }
-
-  .project-2-banner a:hover {
-    background-color: tomato;
   }
 
 .project-3-banner {
@@ -230,23 +176,13 @@ body .portfolio-banner {
   }
 
   .project-3-banner a {
-    background-color: #00aad4;
     margin-top: 20px;
     display: block;
     width: 150px;
   }
 
-  .project-3-banner a:hover {
-    background-color: tomato;
-  }
-
 .hire-banner a {
-  background-color: tomato;
   margin-top: 20px;
-}
-
-.hire-banner a:hover {
-  background-color: #00aad4;
 }
 
 // Contact Styles
@@ -256,10 +192,44 @@ body .portfolio-banner {
 }
 
 .contact-page-banner input[type="submit"] {
-  background-color: tomato;
   margin-top: 20px;
 }
 
-.contact-page-banner input[type="submit"]:hover {
+.contact-page-banner textarea {
+  height: 100px;
+}
+
+// Misc Classes
+
+.blue-button {
+  font-family: 'Open Sans Condensed';
+  text-transform: uppercase;
+  background-color: #00aad4;
+  font-size: 1.2em;
+}
+
+.blue-button:hover {
+  background-color: tomato;
+}
+
+.orange-button {
+  font-family: 'Open Sans Condensed';
+  text-transform: uppercase;
+  background-color: tomato;
+  font-size: 1.2em;
+}
+
+.orange-button:hover {
+  background-color: #00aad4;
+}
+
+.gray-button {
+  font-family: 'Open Sans Condensed';
+  text-transform: uppercase;
+  background-color: #999;
+  font-size: 1.2em;
+}
+
+.gray-button:hover {
   background-color: #00aad4;
 }
