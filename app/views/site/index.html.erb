@@ -1,6 +1,9 @@
 <section class="welcome-banner">
   <div class="row">
     <div class="small-12 medium-12 large-4 columns">
+      <% if flash[:notice] %>
+        <div class="notice"><%= flash[:notice] %></div>
+      <% end %>
       <h2>Welcome Visitor</h2>
       <p>
         We provide web design and development for small businesses and individuals in and around Salt Lake City, UT. Feel free to explore our site or get a quick quote below.

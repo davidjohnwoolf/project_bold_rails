@@ -21,6 +21,7 @@ class SiteController < ApplicationController
     if request.post?
       ContactMailer.contact_mailer(params).deliver
       redirect_to root_path
+      flash[:notice] = "Your message was sent successfully"
     end
   end
 
