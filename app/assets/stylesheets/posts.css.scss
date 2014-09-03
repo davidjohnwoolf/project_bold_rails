@@ -6,6 +6,20 @@
   margin-bottom: 20px;
 }
 
+.blog-banner h3 a {
+  font-weight: 100;
+  color: #00aad4;
+}
+
+.blog-banner h3 a:hover {
+  font-weight: 100;
+  color: tomato;
+}
+
+.created-at {
+  color: #999;
+}
+
 // Post Show Styles
 
 .post-banner .content {
